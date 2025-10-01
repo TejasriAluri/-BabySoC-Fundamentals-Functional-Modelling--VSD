@@ -34,7 +34,7 @@ Instead of using multiple ICs for CPU, memory, and peripherals, an SoC integrate
 
 ---
 
-## 🍼 3. Why BabySoC? (Simplified SoC for Learning)
+##  3. Why BabySoC? (Simplified SoC for Learning)
 
 Real SoCs (e.g., in smartphones) are **highly complex**, with millions of gates and sophisticated architectures.  
 👉 For beginners, this complexity makes it hard to grasp **core SoC concepts**.
