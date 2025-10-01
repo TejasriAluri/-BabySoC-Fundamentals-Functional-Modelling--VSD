@@ -69,3 +69,20 @@ Before RTL coding and layout, designers create a **functional model** — a high
 
 BabySoC acts as a **bridge between theory and real silicon design**:
 
+## 🧭 BabySoC – Simplified Block Diagram
+
+Below is a clean **BabySoC block diagram** that illustrates the minimal architecture used for learning SoC concepts:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aluritejasri/assets/main/babysoc_diagram.png" alt="BabySoC Block Diagram" width="500"/>
+</p>
+
+### 🧱 **Block Description**
+- 🧠 **CPU (Core)** – Executes instructions and controls the flow of data  
+- 🧰 **Memory** – Stores program code and temporary data  
+- 🌐 **Peripherals** – Interfaces for I/O (UART, GPIO, etc.)  
+- 🔗 **Interconnect** – Bus connections enabling communication between blocks  
+
+> This simple structure helps beginners understand **how real SoCs work** without the complexity of industrial chips.
+
+
