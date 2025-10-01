@@ -84,16 +84,7 @@ Below is a clean **BabySoC block diagram** that illustrates the minimal architec
 - 🔗 **Interconnect** – Bus connections enabling communication between blocks  
 
 > This simple structure helps beginners understand **how real SoCs work** without the complexity of industrial chips.          +-----------+
-          |   CPU     |
-          +-----------+
-               |
-        +---------------+
-        | Interconnect  |
-        +---------------+
-          /         \
-  +-----------+   +-------------+
-  |  Memory   |   | Peripherals |
-  +-----------+   +-------------+
+        
 
 > 
 
