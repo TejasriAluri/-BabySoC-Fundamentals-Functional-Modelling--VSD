@@ -82,7 +82,7 @@ Below is a clean **BabySoC block diagram** that illustrates the minimal architec
 - 🌐 **Peripherals** – Interfaces for I/O (UART, GPIO, etc.)  
 - 🔗 **Interconnect** – Bus connections enabling communication between blocks  
 
-> This simple structure helps beginners understand **how real SoCs work** without the complexity of industrial chips.          +-----------+
+> This simple structure helps beginners understand **how real SoCs work** without the complexity of industrial chips.        
         
 
 > 
