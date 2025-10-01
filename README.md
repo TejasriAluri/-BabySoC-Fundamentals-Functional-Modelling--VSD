@@ -73,9 +73,8 @@ BabySoC acts as a **bridge between theory and real silicon design**:
 
 Below is a clean **BabySoC block diagram** that illustrates the minimal architecture used for learning SoC concepts:
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/aluritejasri/assets/main/babysoc_diagram.png" alt="BabySoC Block Diagram" width="500"/>
-</p>
+<img width="1536" height="1024" alt="BabySoc" src="https://github.com/user-attachments/assets/4f74abad-5b96-49b7-a766-f741a9d11665" />
+
 
 ### 🧱 **Block Description**
 - 🧠 **CPU (Core)** – Executes instructions and controls the flow of data  
