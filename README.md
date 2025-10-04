@@ -71,6 +71,8 @@ Functional modelling is the **first critical step** in SoC design before describ
 > _Functional modelling ensures you are building the right system before building the system right._
 
 ---
+<img width="540" height="340" alt="BabySoc" src="https://github.com/user-attachments/assets/9d398770-1b11-440b-b9de-3d0a6da7372e" />
+
 
 ## 🏁 Conclusion
 Understanding the **foundational components of an SoC** and the **importance of functional modelling** is the first step in digital design.  
