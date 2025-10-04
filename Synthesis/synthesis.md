@@ -29,7 +29,6 @@ yosys
 - This invokes the Yosys interactive shell where all synthesis commands are executed.
 
 
-![Invoke_Yosys](Screenshots/invoke_yosys.png)
 
 
 
