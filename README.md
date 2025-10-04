@@ -1,75 +1,81 @@
-# BabySoC – Week 2: Fundamentals & Functional Modelling
-🚀 Week 2: SoC Fundamentals & Functional Modelling
-A deep dive into the core concepts of System-on-Chip design and its initial modelling phase.
+# 🚀 BabySoC – Week 2: Fundamentals & Functional Modelling
 
-Author: Tejasri Aluri
+_A deep dive into the core concepts of System-on-Chip (SoC) design and its initial modelling phase._
 
-📖 Table of Contents
-Introduction to System-on-Chip (SoC)
+**Author:** Tejasri Aluri
 
-Anatomy of a Modern SoC
+---
 
-The BabySoC: A Learning Catalyst
+## 📖 Table of Contents
+1. [Introduction to System-on-Chip (SoC)](#-introduction-to-system-on-chip-soc)
+2. [Anatomy of a Modern SoC](#-anatomy-of-a-modern-soc)
+3. [The BabySoC: A Learning Catalyst](#-the-baby-soc-a-learning-catalyst)
+4. [Functional Modelling: The Blueprint for Success](#-functional-modelling-the-blueprint-for-success)
+5. [Conclusion](#-conclusion)
 
-Functional Modelling: The Blueprint for Success
+---
 
-Conclusion
+## 💡 Introduction to System-on-Chip (SoC)
+A **System-on-Chip (SoC)** represents the pinnacle of electronic integration, where an entire system's worth of components is fabricated onto a **single silicon chip**.  
 
-💡 Introduction to System-on-Chip (SoC)
-A System-on-Chip represents the pinnacle of electronic integration, where an entire system's worth of components is fabricated onto a single silicon chip. This methodology is the driving force behind the sleek, powerful, and efficient devices we use daily, from smartphones to smartwatches.
+This methodology powers the sleek, powerful, and efficient devices we use daily — from **smartphones** to **smartwatches**.
 
-An SoC is an integrated circuit (IC) that consolidates all essential components of a computer or electronic system. This includes the central processor, memory, input/output ports, and other peripherals, all on a single substrate.
+An SoC is an **integrated circuit (IC)** that consolidates all essential components of a computer or electronic system, including:  
+- **CPU (Central Processor)**  
+- **Memory**  
+- **Input/Output (I/O) ports**  
+- **Other peripherals**  
 
-The primary benefits of this high-density integration are:
+**Primary Benefits of High-Density Integration:**
+- ⚡ **Higher Performance:** On-chip communication is much faster than off-chip communication.  
+- 🔋 **Lower Power Consumption:** Shorter signal paths reduce the power required for data transfer.  
+- 📦 **Reduced Form Factor:** Enables creation of smaller and lighter devices.  
+- 💰 **Lower Cost:** Mass production of a single chip is more economical than multiple discrete components.
 
-⚡️ Higher Performance: On-chip communication is orders of magnitude faster than off-chip communication.
+---
 
-🔋 Lower Power Consumption: Shorter signal paths drastically reduce the power required for data transfer.
+## 🏗️ Anatomy of a Modern SoC
 
-📦 Reduced Form Factor: Enables the creation of smaller and lighter devices.
+| Component         | Role & Analogy                             | Common Examples                     |
+|------------------|-------------------------------------------|------------------------------------|
+| **CPU Core**      | The "Brain": Executes software instructions and orchestrates system tasks. | ARM Cortex-A/M, RISC-V            |
+| **Memory**        | The "Short-term Memory": Stores instructions and data for quick CPU access. | SRAM Caches (L1, L2), DRAM Controllers |
+| **Peripherals**   | The "Senses & Limbs": Facilitate interaction with the external world. | UART, SPI, I2C, GPIO, USB Controllers |
+| **Interconnect**  | The "Nervous System": High-speed bus connecting all components. | AMBA (AXI, AHB, APB) Bus Fabric  |
+| **Specialized Units** | "Co-processors": Hardware accelerators for specific tasks. | GPU, DSP, NPU (AI Accelerator)    |
 
-💰 Lower Cost: Mass production of a single chip is more economical than manufacturing and assembling a multi-chip system.
+---
 
-🏗️ Anatomy of a Modern SoC
-While every SoC is designed for a specific application, they are generally composed of several core building blocks connected by a communication fabric.
+## 🔬 The BabySoC: A Learning Catalyst
+**BabySoC** is an **educational SoC** designed to simplify complex SoC architectures into fundamental components:  
+- Basic processor  
+- Small memory block  
+- Simple I/O peripheral  
 
-Component	Role & Analogy	Common Examples
-CPU Core	The "Brain": Executes software instructions and orchestrates system tasks.	ARM Cortex-A/M, RISC-V
-Memory	The "Short-term Memory": Stores instructions and data for quick access by the CPU.	SRAM Caches (L 
-1
-​
- ,L 
-2
-​
- ), DRAM Controllers
-Peripherals	The "Senses & Limbs": Facilitate interaction with the external world.	UART, SPI, I2C, GPIO, USB Controllers
-Interconnect	The "Nervous System": A high-speed bus that enables communication between all other components.	AMBA (AXI, AHB, APB) Bus Fabric
-Specialized Units	"Co-processors": Hardware accelerators for specific tasks to offload the CPU.	GPU, DSP, NPU (AI Accelerator)
+**Why BabySoC is Ideal for Learning:**
+1. **Master the Fundamentals:** Focus on **CPU-memory-peripheral interactions** without complex features.  
+2. **Experience the Full Design Cycle:** From concept → functional modelling → RTL design → verification.  
+3. **Build a Scalable Foundation:** Principles learned are directly applicable to **industry-standard designs**.
 
-Export to Sheets
-🔬 The BabySoC: A Learning Catalyst
-The BabySoC is a purpose-built educational tool designed to demystify the complexities of SoC architecture. It intentionally simplifies a commercial-grade SoC down to its fundamental components: a basic processor, a small memory block, and a simple I/O peripheral.
+---
 
-This minimalist approach is crucial for learning because it allows us to:
+## ✅ Functional Modelling: The Blueprint for Success
+Functional modelling is the **first critical step** in SoC design before describing hardware in **RTL (Verilog/VHDL)**.  
 
-Master the Fundamentals: Focus on the critical interactions between the CPU, memory, and peripherals without the distraction of complex features like multi-level caches or advanced power management.
+**Purpose of Functional Modelling:**
+- **Mitigate Risk Early:** Fix architectural or logical flaws at a high level before costly implementations.  
+- **Validate Architecture:** Test **interconnect strategies, memory maps, or algorithms** quickly.  
+- **Establish a Golden Reference:** Acts as the ultimate source of truth for verifying subsequent RTL designs.
 
-Experience the Full Design Cycle: Realistically take a project from concept, through functional modelling and RTL design, all the way to verification. This provides an invaluable end-to-end perspective.
+**In short:**  
+> _Functional modelling ensures you are building the right system before building the system right._
 
-Build a Scalable Foundation: The principles learned from designing and verifying the BabySoC are directly applicable to more complex, industry-standard designs.
+---
 
-✅ Functional Modelling: The Blueprint for Success
-In the SoC design lifecycle, functional modelling is the critical first step that occurs before any hardware is described in RTL (Verilog/VHDL). It involves creating a high-level, executable model of the chip to validate its behavior and architecture.
+## 🏁 Conclusion
+Understanding the **foundational components of an SoC** and the **importance of functional modelling** is the first step in digital design.  
 
-This phase is non-negotiable for any serious design project for three main reasons:
+The **BabySoC** offers a **hands-on platform** to transform theoretical knowledge into practical skill, laying the **groundwork for robust final designs**.
 
-Mitigate Risk Early: Identifying and fixing architectural or logical flaws at this abstract stage is exponentially cheaper and faster than discovering them post-synthesis or, in the worst case, in silicon.
+---
 
-Validate Architecture: It provides a sandbox to test architectural hypotheses. Designers can quickly evaluate different interconnect strategies, memory maps, or processing algorithms to optimize for performance and power before committing to an implementation.
-
-Establish a Golden Reference: The functional model acts as the ultimate source of truth for the project's intended behavior. The subsequent RTL design is continuously verified against this "golden model" to ensure correctness throughout the development process.
-
-In short, functional modelling ensures you are building the right system before you focus on building the system right.
-
-🏁 Conclusion
-Understanding the foundational components of an SoC and the strategic importance of functional modelling is the first step in the journey of digital design. The BabySoC provides the perfect vehicle for this exploration, offering a hands-on platform to transform theoretical knowledge into practical skill. This initial phase of conceptual understanding and high-level modelling lays the groundwork for a successful and robust final design
